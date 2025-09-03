@@ -1,0 +1,24 @@
+# .goreleaser.yml
+
+project_name: system-utility
+
+builds:
+  - id: "system-utility"
+    main: .
+    binary: agent
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+
+archives:
+  - id: "system-utility-archives"
+    builds:
+      - "system-utility"
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format: zip
+
+checksum:
+  name_template: "checksums.txt"

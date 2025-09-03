@@ -1,0 +1,16 @@
+# Python / Flask
+backend/venv/
+backend/instance/
+backend/__pycache__/
+backend/pyvenv.cfg
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Go
+utility/dist/
+
+# IDE files
+.vscode/
