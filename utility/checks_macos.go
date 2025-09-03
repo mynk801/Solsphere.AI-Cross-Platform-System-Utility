@@ -1,5 +1,3 @@
-// checks_macos.go
-
 
 package main
 

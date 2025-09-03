@@ -1,5 +1,3 @@
-// checks_linux.go
-
 
 package main
 

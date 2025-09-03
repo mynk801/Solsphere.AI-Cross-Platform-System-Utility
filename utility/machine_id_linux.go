@@ -1,5 +1,3 @@
-// machine_id_linux.go
-
 
 package main
 

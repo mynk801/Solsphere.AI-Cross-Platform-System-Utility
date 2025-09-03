@@ -1,4 +1,3 @@
-// machine_id_macos.go
 
 
 package main

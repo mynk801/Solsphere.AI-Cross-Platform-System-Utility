@@ -1,4 +1,3 @@
-// checks_windows.go
 
 
 package main
